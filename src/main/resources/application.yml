@@ -1,0 +1,8 @@
+server:
+  port: ${HTTP_PORT:8080}
+
+keycloak-admin-client:
+  url: ${KK_URL}
+  realm: ${KK_REALM}
+  client-id: ${KK_CLIENT_ID}
+  client-secret: ${KK_CLIENT_SECRET}
